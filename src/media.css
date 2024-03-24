@@ -1,0 +1,110 @@
+@media(max-width:900px){
+    .container{
+        /* background-image: none; */
+        background-size: cover;
+        background-color: rgba(119, 140, 163,1.0);
+        background-size: auto;
+        margin-top: 10px;
+        max-width: 900px;
+        max-height: 900px;
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    .container .header-container{
+        display: block;
+        width: 100%;
+        
+    }
+    .container .header-container .logo a{
+        padding: 0;
+    }
+    .header-container .info{
+        display: flex;
+        width: 100%;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .header-container .info .conatack{
+        justify-content: space-between;
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+    }
+    .header-container .info .conatack .telefone{
+        width: 200px;
+        height: 20px;
+    }
+    .header-container .info .conatack .work_schedule{
+        width: 200px;
+        height: 20px;
+    }
+    .header-container .info .conatack .mail{
+        width: 200px;
+        height: 20px;
+    }
+    
+    .header-container .info .sidebar{
+        width: 30%;
+        height: 100%;  
+        padding-right: 40px;     
+    }
+    .header-container .info .sidebar ul{
+        display: block;
+        text-align: right;
+    }
+    .header-container .info .sidebar li{
+        padding: 0;
+        margin: 0;
+    }
+    .modal{
+        background-color: black;
+    }
+    .modal .modal-content{
+        margin: 5% auto;
+        width:50vw;
+    }
+    .modal .modal-content .container-service{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-columns: minmax(50px,auto);
+    }
+    .aboutus{
+        width: 100vw;
+        height: 100vh;
+    }
+    .aboutus .about{
+        position: static;
+        top:5px;
+        left: 0px;
+        font-size: 16px;
+        width: 100vw;
+        height: 100vh;
+    }
+    .service-page{
+        height: 100vh;
+        width: 100vw;
+    }
+    .service-page .content{
+        width: 80%;
+        padding: 5px;
+        height: 50vh;
+        margin: 20px 0 0 0;
+    }
+    .service-page .content-text{
+        width: 60vh;
+        padding: 5px;
+    }
+    .aboutus{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+    }
+    .aboutus .about{
+        width: 100%;
+        margin: 0;
+        height: 100%;
+    }
+}

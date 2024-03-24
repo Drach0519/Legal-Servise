@@ -1,0 +1,21 @@
+.content{
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    background-color: rgba(178, 190, 195,0.2);
+    padding: 20px;
+}
+.content h3{
+    font-size: 32px;
+}
+.service-page .content-text{
+    text-align: start;
+    padding: 10px;
+    width: 100%;
+}
+.content-text >p{
+    font-family:'Robot';
+}

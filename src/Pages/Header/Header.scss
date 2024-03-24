@@ -1,0 +1,87 @@
+*{
+    list-style-type: none;
+}
+.header-container{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    width: 100%;
+    padding-left: 50px;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+    
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.logo p{
+    font-family: Merriweather;
+    color: #005FA3;
+    font-weight: 600;
+    font-size: 36px;
+}
+.info{
+    width: 100%;
+    justify-content: right;
+}
+.conatack{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.conatack img{
+    width: 20px;
+    height: 20px;
+}
+.conatack .telefone{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.conatack .work_schedule{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.conatack .mail{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 100%;
+}
+.sidebar ul{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.sidebar li{
+    padding: 10px;
+    width: 100%;
+}
+.sidebar li:hover{
+    cursor: pointer;
+    color: #005FA3;
+    font-weight: 600;
+}
+a.active{
+    color: #005FA3;
+}
